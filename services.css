@@ -1,0 +1,96 @@
+/* services section css  */
+
+
+
+.gallery-section{
+    height: 1440px;
+    width: 100%;
+    padding: 3rem 5rem;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(3,300px);
+    grid-column-gap: 5rem;
+    grid-row-gap: 8rem;
+    justify-content: center;
+    /* background-image: radial-gradient(circle at bottom center, rgb(216, 248, 247),rgb(253, 176, 22)); */
+    background-image: radial-gradient(circle at center left, rgb(207, 135, 220),rgb(59, 104, 195));
+  
+   
+}
+
+
+
+.gallery-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 1.5rem;
+   
+}
+
+.gallery-section img:hover{
+    transition: all ease 1s;
+   
+   transform: scale3d(1.1,1.1,1);
+}
+
+.gallery-section .para{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    /* border: 2px dashed blue; */
+    margin-top: 1rem;
+}
+ h1{
+     /* display: inline-block; */
+     border-bottom: 4px solid blue;
+     padding: 2rem 0;
+     /* margin-top: 5rem ; */
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    
+   
+}
+
+.box{
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+
+@media(max-width:768px){
+  .gallery-section{
+    height: auto;
+    padding: 2rem 4px;
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(9,250px);
+    grid-row-gap: 8rem;
+  }
+.gallery-section img{
+    height: 250px;
+    width: 250px;
+}
+.gallery-section .para{
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+ h1{
+     border-bottom: 3px solid blue;
+     padding: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box{
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+
+#jackie{
+  margin-top: 0;
+}
+}
+

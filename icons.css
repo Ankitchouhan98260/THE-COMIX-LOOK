@@ -1,0 +1,66 @@
+ /* .addingimg a{
+    background-color: #f5f5fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: -10px 0px 0px 0px;
+    line-height: 100px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  transition: all 0.3s linear;
+  } */
+  .fa-twitter{
+      color: #1DA1F2;
+  }
+  .fa-linkedin{
+    color: #0097e6;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-github{
+    color: #050505;
+}
+  a:hover i{
+      transform: scale(1.4);
+  }
+  .backgroundimg{
+    /* background: rgba(0, 0, 0,0.7) img('../imges/shreya.jpg'); */
+      display: flex;
+      width: 250px;
+  }
+  .onebyone{
+      /* display: flex;
+      flex-direction: column;
+      /* margin: 24px 24px; */
+      /* padding: 6px 4px; */ 
+
+      display: flex;
+      flex-direction: column;
+      margin: 24px 24px;
+      padding: -25px -7px;
+      margin: -255px 5px;
+  }
+  .alpha{
+    margin-top: 71px;
+    margin-left: 49px;
+    transition: all 0.3s linear;
+    color: black;
+  }
+  .beta{
+    margin-top: -6px;
+    margin-left: 81px;
+    transition: all 0.3s linear;
+    color: black;
+  }
+  .com{
+    margin-top: 18px;
+  }
+  .com:hover{
+    color: red;
+    transform: scale(1.4);
+  }
+.nimra-left{
+  margin-left: 80px;
+}
+.rimjhiim-left{
+  margin-left: 80px;
+}
