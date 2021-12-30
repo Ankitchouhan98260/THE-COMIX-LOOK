@@ -442,6 +442,10 @@ top: 15px;
   .nav-list{
     flex-direction: column;
   }
+    .secondhalf img{
+        width: 218px;
+    height: 232px;
+    }
   /* .navbar{
     flex-direction: column;
     height: 478px;
@@ -454,6 +458,9 @@ top: 15px;
   .rightNav{
     text-align: center;
   }
+    .onebyone{
+        margin: -225px 5px;
+    }
   #search{
     width: 100px;
   }
