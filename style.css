@@ -442,8 +442,10 @@ header .superman{
 }
 header .illustration{
     width: 100%;
-    display: block;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
